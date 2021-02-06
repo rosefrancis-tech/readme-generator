@@ -1,8 +1,6 @@
-// create template literal
-module.exports = templateData => {
-    return `
+
     {generateBadges(templateData.licenses)}
-    # ${templateData.title}
+    # g
     ## Table of Contents
     * [Description](#Description)
     * [Installation](#Installation)
@@ -12,22 +10,21 @@ module.exports = templateData => {
     * [Questions](#Questions)
     * [License](#License)
     ## Description 
-    ${templateData.description}
+    g
     ## Installation
-    ${templateData.installation}
+    g
     ## Usage
-    ${templateData.usage}
+    g
     ## Contributing
-    ${templateData.contributing}
+    g
     ## Tests
-    ${templateData.tests}
+    g
     ## Questions
     For questions, please visit the github profile.
-    Github profile : https://github.com/${templateData.github}
+    Github profile : https://github.com/g
     Please feel free to contact in email.
-    Email: ${templateData.email}
+    Email: undefined
     ## License
     {generateLicense(templateData.licenses)}
 
-    `
-}
+    

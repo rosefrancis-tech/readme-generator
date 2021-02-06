@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fillTemplate = require('./src/template');
+const generateMarkdown = require('./utils/generateMarkdown.js');
 
 // TODO: Create an array of questions for user input
 //const questions = [];
@@ -165,10 +166,19 @@ const questions = () => {
       }
     ]);
   };
-questions().then(answers => console.log(answers));
+//questions().then(answers => console.log(answers));
 questions()
 .then(readmeData => {
   return fillTemplate(readmeData);
+})
+.then(readmeMarkdown => {
+    return generateMarkdown(readmeMarkdown);
+})
+.then(response => {
+    console.log(response);
+})
+.catch(err => {
+    console.log(err);
 });
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
