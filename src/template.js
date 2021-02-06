@@ -1,3 +1,22 @@
+// create email if user confirms to add
+const generateEmail = email => {
+     if (!email) {
+         return '';
+     }
+     return `
+Please feel free to write to me at ${email}
+`
+};
+
+// create licenses list
+const generateLicense = licenseArr => {
+    if (licenseArr === 'undefined') {
+        return '';
+    }
+    return `
+${licenseArr.join(', ')}
+    `
+}
 // create template literal
 module.exports = templateData => {
     return `
@@ -24,10 +43,9 @@ ${templateData.tests}
 ## Questions
 For questions, please visit the github profile.
 Github profile : https://github.com/${templateData.github}
-Please feel free to contact in email.
-Email: ${templateData.email}
+${generateEmail(templateData.email)}
 ## License
-{generateLicense(templateData.licenses)}
+${generateLicense(templateData.licenses)}
 
 `
 }

@@ -22,8 +22,9 @@ f
 ## Questions
 For questions, please visit the github profile.
 Github profile : https://github.com/f
-Please feel free to contact in email.
-Email: undefined
+
 ## License
-{generateLicense(templateData.licenses)}
+
+Apache License 2.0, GNU General Public License v3.0, MIT License, BSD 2-Clause "Simplified" License, BSD 3-Clause "New" or "Revised" License
+    
 

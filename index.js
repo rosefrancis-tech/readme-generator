@@ -127,7 +127,7 @@ const questions = () => {
       {
         type: 'confirm',
         name: 'confirmLicense',
-        message: 'Would you like to add a license?',
+        message: 'Would you like to add license?',
         default: true
       },
       {
