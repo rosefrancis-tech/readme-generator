@@ -75,19 +75,29 @@ Please feel free to write to me at ${email}
 `
 };
 // create license badges
-const generateBadges = licenseArr => {
-   /* if (licenseArr === 'undefined') {
+const generateBadges = mylicenseArr => {
+    if (mylicenseArr === 'undefined') {
         return '';
     }
     return `
-${licenseArr.map(([licensename]) => {
+    ${mylicenseArr
+    .map(({license, confirmLicense}) => {
+        if (confirmLicense === false) {
+            return '';
+        }
+        var filteredArray = licenseList.filter(function(obj) {
+            console.log("obj");
+            console.log(obj);
+            return (obj.name === license);
+        })
+        console.log("filtered array");
+        console.log(filteredArray);
         return `
-[![License](https://img.shields.io/badge/License-${licensename}-red)](https://choosealicense.com/licenses/mit/)
+[![License](https://img.shields.io/badge/License-${filteredArray[0].SPDX}-red)](https://choosealicense.com/licenses/mit/)
         `;
-
-})
-.join(' ')}
-    `;*/
+    })
+    .join ('  ')}
+    `;
 };
 // create licenses list
 const generateLicense = mylicenseArr => {
@@ -115,7 +125,7 @@ module.exports = templateData => {
     console.log(templateData);
 
     return `
-{generateBadges(templateData.licenses)}
+${generateBadges(templateData.myLicense)}
 # ${templateData.title}
 ## Table of Contents
 * [Description](#Description)
