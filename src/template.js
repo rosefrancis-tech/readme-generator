@@ -1,7 +1,7 @@
 // create template literal
 module.exports = templateData => {
     return `
-    ${generateBadges(licenses)}
+    ${generateBadges(templateData.licenses)}
     # ${templateData.title}
     ## Table of Contents
     * [Description](#Description)
@@ -27,7 +27,7 @@ module.exports = templateData => {
     Please feel free to contact in email.
     Email: ${templateData.email}
     ## License
-    ${generateLicense(licenses)}
+    ${generateLicense(templateData.licenses)}
 
     `
 }
