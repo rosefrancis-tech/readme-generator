@@ -1,9 +1,5 @@
 
-
-
-[![License](https://img.shields.io/badge/License-A-red)](https://choosealicense.com/licenses/mit/)
-        
-    
+{generateBadges(templateData.licenses)}
 # f
 ## Table of Contents
 * [Description](#Description)
@@ -27,10 +23,10 @@ f
 For questions, please visit the github profile.
 Github profile : https://github.com/f
 
-Please feel free to write to me at f
-
 ## License
 
-Apache license 2.0
+    
+The f is licensed under Apache license 2.0.      
+        
     
 

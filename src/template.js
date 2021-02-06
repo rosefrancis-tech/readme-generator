@@ -65,7 +65,7 @@ const licenseList = [
         link: ''
     }
 ];
-// create email if user confirms to add
+// create email literal if user confirms to add email in readme
 const generateEmail = email => {
      if (!email) {
          return '';
@@ -76,7 +76,7 @@ Please feel free to write to me at ${email}
 };
 // create license badges
 const generateBadges = licenseArr => {
-    if (licenseArr === 'undefined') {
+   /* if (licenseArr === 'undefined') {
         return '';
     }
     return `
@@ -87,23 +87,35 @@ ${licenseArr.map(([licensename]) => {
 
 })
 .join(' ')}
-    `;
-}
+    `;*/
+};
 // create licenses list
-const generateLicense = licenseArr => {
-    if (licenseArr === 'undefined') {
-        return '';
+const generateLicense = mylicenseArr => {
+    console.log(mylicenseArr)
+    if (mylicenseArr === 'undefined') {
+        return `
+No licenses.
+        `;
     }
     return `
-${licenseArr.join(', ')}
-    `
+    ${mylicenseArr
+    .map(({section, license, confirmLicense}) => {
+        if (confirmLicense === false) {
+            return '';
+        }
+        return `
+The ${section} is licensed under ${license}.      
+        `;
+    })
+    .join ('  ')}
+    `;
 }
 // create template literal
 module.exports = templateData => {
     console.log(templateData);
 
     return `
-${generateBadges(templateData.licenses)}
+{generateBadges(templateData.licenses)}
 # ${templateData.title}
 ## Table of Contents
 * [Description](#Description)
@@ -128,7 +140,7 @@ For questions, please visit the github profile.
 Github profile : https://github.com/${templateData.github}
 ${generateEmail(templateData.email)}
 ## License
-${generateLicense(templateData.licenses)}
+${generateLicense(templateData.myLicense)}
 
 `
 }

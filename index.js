@@ -208,7 +208,7 @@ const askLicense = readmeData => {
         },
         {
             type: 'list',
-            name: 'licenses',
+            name: 'license',
             message: 'Choose license (Check one that apply)',
             when: ({ confirmLicense }) => {
                 if (confirmLicense) {
