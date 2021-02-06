@@ -134,7 +134,7 @@ const questions = () => {
         type: 'checkbox',
         name: 'licenses',
         message: 'Choose licenses (Check all that apply)',
-        choices: ['Apache License 2.0', 
+        choices: ['Apache license 2.0', 
                   'GNU General Public License v3.0', 
                   'MIT License', 
                   'BSD 2-Clause "Simplified" License', 
