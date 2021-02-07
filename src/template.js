@@ -112,7 +112,6 @@ const generateBadges = mylicenseArr => {
 
 // create licenses list
 const generateLicense = mylicenseArr => {
-    console.log(mylicenseArr)
     if (mylicenseArr === 'undefined') {
         return `
 No licenses.
