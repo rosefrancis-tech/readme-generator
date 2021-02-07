@@ -1,68 +1,81 @@
 const licenseList = [
     {
         name: 'Apache license 2.0', 
-        SPDX: 'Apache 2.0',
-        link: ''
+        SPDX: 'Apache%202.0',
+        link: 'http://www.apache.org/licenses/LICENSE-2.0.txt',
+        color: 'yellow'
     },
     {
         name: 'GNU General Public License v3.0',
-        SPDX: 'GPL 3.0',
-        link: ''
+        SPDX: 'GPL%203.0',
+        link: 'https://www.gnu.org/licenses/gpl-3.0.en.html',
+        color: 'blue'
     },
     { 
         name: 'MIT License', 
         SPDX: 'MIT',
-        link: ''
+        link: 'https://choosealicense.com/licenses/mit/',
+        color: 'violet'
     },
     {
         name: 'BSD 2-Clause "Simplified" License', 
-        SPDX: 'BSD 2',
-        link: ''
+        SPDX: 'BSD%202',
+        link: 'https://opensource.org/licenses/BSD-3-Clause',
+        color: 'orange'
     },
     {
         name: 'BSD 3-Clause "New" or "Revised" License', 
-        SPDX: 'BSD 3',
-        link: ''
+        SPDX: 'BSD%203',
+        link: 'https://opensource.org/licenses/BSD-3-Clause',
+        color: 'orange'
     },
     {
         name: 'Boost Software License 1.0', 
-        SPDX: 'BSL 1.0',
-        link: ''
+        SPDX: 'BSL%201.0',
+        link: 'https://choosealicense.com/licenses/bsl-1.0/',
+        color: 'violet'
     },
     {
         name: 'Creative Commons Zero v1.0 Universal',
-        SPDX: 'CC0 1.0',
-        link: ''
+        SPDX: 'CC0%201.0',
+        link: 'https://creativecommons.org/publicdomain/zero/1.0/legalcode',
+        color: 'lightgrey'
     },
     {
         name: 'Eclipse Public Licence 2.0',
-        SPDX: 'EPL 2.0',
-        link: ''
+        SPDX: 'EPL%202.0',
+        link: 'https://opensource.org/licenses/EPL-2.0',
+        color: 'red'
     },
     {
         name: 'GNU Affero General Public License v3.0',
-        SPDX: 'AGPL 3.0',
-        link: ''
+        SPDX: 'AGPL%203.0',
+        link: 'https://choosealicense.com/licenses/agpl-3.0/',
+        color: 'blue'
     },
     {
         name: 'GNU General Public License v2.0',
-        SPDX: 'GPL 2.0',
-        link: ''
+        SPDX: 'GPL%202.0',
+        link: 'https://opensource.org/licenses/GPL-2.0',
+        color: 'blue'
     },
     {
         name: 'GNU Lesser General Public License v2.1',
-        SPDX: 'LGPL 2.1',
-        link: ''
+        SPDX: 'LGPL%202.1',
+        link: 'https://opensource.org/licenses/LGPL-2.1',
+        color: 'lightblue'
     },
     {
         name: 'Mozilla Public License 2.0',
-        SPDX: 'MPL 2.0',
-        link: ''
+        SPDX: 'MPL%202.0',
+        link: 'https://choosealicense.com/licenses/mpl-2.0/',
+        color: 'brightgreen'
     },
     {
         name:'The Unlicense',
         SPDX: 'Unlicense',
-        link: ''
+        link: 'https://choosealicense.com/licenses/unlicense/',
+        color: 'lightgreen'
     }
 ];
 // create email literal if user confirms to add email in readme
@@ -93,10 +106,10 @@ const generateBadges = mylicenseArr => {
         console.log("filtered array");
         console.log(filteredArray);
         return `
-[![License](https://img.shields.io/badge/License-${filteredArray[0].SPDX}-red)](https://choosealicense.com/licenses/mit/)
+[![License](https://img.shields.io/badge/License-${filteredArray[0].SPDX}-${filteredArray[0].color})](${filteredArray[0].link})
         `;
     })
-    .join ('  ')}
+    .join (' ')}
     `;
 };
 // create licenses list
