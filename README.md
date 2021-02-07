@@ -47,7 +47,8 @@ Please note that this project is released with a [Contributor Code of Conduct](h
 
 ## Tests
 Errors are thrown on the terminal.  
-The command line will show the following messages on success. 
+The command line will show the following messages on success.  
+
     {ok:true, message: 'Readme created!'}
 
 ## Questions
