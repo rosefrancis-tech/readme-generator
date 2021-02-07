@@ -174,7 +174,7 @@ const askLicense = readmeData => {
         {
             type: 'input',
             name: 'section',
-            message: 'Enter the project section to be licensed: (Required)',
+            message: 'Project section to be licensed: entire, content of the, code of the,etc. (Required)',
             when: ({ confirmLicense }) => {
                 if (confirmLicense) {
                   return true;

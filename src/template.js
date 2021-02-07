@@ -112,7 +112,7 @@ const generateBadges = mylicenseArr => {
 
 // create licenses list
 const generateLicense = mylicenseArr => {
-    if (mylicenseArr === 'undefined') {
+    if (mylicenseArr[0].confirmLicense === false) {
         return `
 No licenses.
         `;
@@ -124,7 +124,7 @@ No licenses.
             return '';
         }
         return `
-The ${section} is licensed under ${license}.      
+The ***${section}*** project is licensed under ***${license}***.      
         `;
     })
     .join ('  ')}
@@ -136,8 +136,8 @@ module.exports = templateData => {
     console.log(templateData);
 
     return `
- &nbsp; &nbsp; &nbsp; &nbsp; ${generateBadges(templateData.myLicense)}
-#  &nbsp; &nbsp; &nbsp; &nbsp; ${templateData.title}
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ${generateBadges(templateData.myLicense)}
+#  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ${templateData.title}
 ## Table of Contents
 * [Description](#Description)
 * [Live project](#Live-project)
