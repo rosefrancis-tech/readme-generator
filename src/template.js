@@ -141,6 +141,8 @@ ${generateBadges(templateData.myLicense)}
 # ${templateData.title}
 ## Table of Contents
 * [Description](#Description)
+* [Live project](#Live-project)
+* [GitHub Repository](#GitHub-Repository)
 * [Installation](#Installation)
 * [Usage](#Usage)
 * [Contributing](#Contributing)
@@ -149,6 +151,10 @@ ${generateBadges(templateData.myLicense)}
 * [License](#License)
 ## Description 
 ${templateData.description}
+## Live Project
+${templateData.liveLink}
+## GitHub Repository
+The project's repo link: ${templateData.projectRepoLink}
 ## Installation
 ${templateData.installation}
 ## Usage

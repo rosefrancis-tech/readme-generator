@@ -34,6 +34,32 @@ const questions = () => {
       },
       {
         type: 'input',
+        name: 'liveLink',
+        message: 'Write about deployed application link (Required)',
+        validate: liveLinkInput => {
+          if (liveLinkInput) {
+            return true;
+          } else {
+            console.log('Please enter a link or notify why there is no link!');
+            return false;
+          }
+        }
+      },
+      {
+        type: 'input',
+        name: 'projectRepoLink',
+        message: 'Enter remote repo link of project (Required)',
+        validate: projectRepoLinkInput => {
+          if (projectRepoLinkInput) {
+            return true;
+          } else {
+            console.log('Please provide the remote repo of the project!');
+            return false;
+          }
+        }
+      },
+      {
+        type: 'input',
         name: 'installation',
         message: 'Enter the installation details (Required)',
         validate: installationInput => {
