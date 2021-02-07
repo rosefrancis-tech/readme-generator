@@ -88,6 +88,7 @@ const generateEmail = email => {
 Please feel free to write to me at ${email}
 `
 };
+
 // create license badges
 const generateBadges = mylicenseArr => {
     if (mylicenseArr === 'undefined') {
@@ -100,18 +101,15 @@ const generateBadges = mylicenseArr => {
             return '';
         }
         var filteredArray = licenseList.filter(function(obj) {
-            console.log("obj");
-            console.log(obj);
             return (obj.name === license);
         })
-        console.log("filtered array");
-        console.log(filteredArray);
         return `
 [![License](https://img.shields.io/badge/License-${filteredArray[0].SPDX}-${filteredArray[0].color})](${filteredArray[0].link}) `;
     })
     .join ('')}
     `;
 };
+
 // create licenses list
 const generateLicense = mylicenseArr => {
     console.log(mylicenseArr)
