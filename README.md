@@ -25,7 +25,9 @@ This interactive project generates a README.md file by accepting inputs from the
 * npm
 
 ## Live Project
-This is a Node.js application that runs from a machine and not a browser. Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. It is neither hosted in the web nor deployed to GitHub pages. Please follow [installation](#Installation)
+This is a Node.js application that runs from a machine and not a browser. Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. It is neither hosted in the web nor deployed to GitHub pages.  
+[View sample README.md](https://github.com/rosefrancis-tech/readme-generator/blob/feature/read-me/dist/README.md) generated using this application.  
+Please follow [installation](#Installation) for using this application.
 
 ## GitHub Repository
 The project's repo link: https://github.com/rosefrancis-tech/readme-generator
