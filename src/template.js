@@ -92,7 +92,7 @@ Please feel free to write to me at ${email}
 
 // create license badges
 const generateBadges = mylicenseArr => {
-    if (mylicenseArr === 'undefined') {
+    if (mylicenseArr[0].confirmLicense === false) {
         return '';
     }
     return `
@@ -101,7 +101,7 @@ const generateBadges = mylicenseArr => {
         if (confirmLicense === false) {
             return '';
         }
-        var filteredArray = licenseList.filter(function(obj) {
+        let filteredArray = licenseList.filter(function(obj) {
             return (obj.name === license);
         })
         return `
@@ -113,6 +113,7 @@ const generateBadges = mylicenseArr => {
 
 // create licenses list
 const generateLicense = mylicenseArr => {
+    // when no licenses are chosen
     if (mylicenseArr[0].confirmLicense === false) {
         return `
 No licenses.
@@ -121,6 +122,7 @@ No licenses.
     return `
     ${mylicenseArr
     .map(({section, license, confirmLicense}) => {
+        // when no additional licenses are chosen
         if (confirmLicense === false) {
             return '';
         }
