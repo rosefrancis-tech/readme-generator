@@ -1,9 +1,11 @@
 
 
     
-[![License](https://img.shields.io/badge/License-Apache-2.0-red)](https://choosealicense.com/licenses/mit/)
+[![License](https://img.shields.io/badge/License-Apache 2.0-red)](https://choosealicense.com/licenses/mit/)
           
-[![License](https://img.shields.io/badge/License-GPL-3.0-red)](https://choosealicense.com/licenses/mit/)
+[![License](https://img.shields.io/badge/License-GPL 3.0-red)](https://choosealicense.com/licenses/mit/)
+          
+[![License](https://img.shields.io/badge/License-MIT-red)](https://choosealicense.com/licenses/mit/)
         
     
 # f
@@ -29,12 +31,16 @@ f
 For questions, please visit the github profile.
 Github profile : https://github.com/f
 
+Please feel free to write to me at f
+
 ## License
 
     
 The f is licensed under Apache license 2.0.      
           
 The ff is licensed under GNU General Public License v3.0.      
+          
+The fff is licensed under MIT License.      
         
     
 
