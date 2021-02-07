@@ -126,8 +126,11 @@ No licenses.
         if (confirmLicense === false) {
             return '';
         }
+        let filteredArray = licenseList.filter(function(obj) {
+            return (obj.name === license);
+        })
         return `
-The ***${section}*** project is licensed under ***${license}***.      
+The ***${section}*** project is licensed under [${license}](${filteredArray[0].link}).      
         `;
     })
     .join ('  ')}

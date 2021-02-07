@@ -31,12 +31,12 @@ This is a Node.js application that runs from a machine and not a browser. Node.j
 The project's repo link: https://github.com/rosefrancis-tech/readme-generator
 
 ## Installation
->   Install Node.js from nodejs.org.
+>   Install Node.js from nodejs.org.  
 >   Download the [repo](https://github.com/rosefrancis-tech/readme-generator) to your local machine and run it from the Terminal/Command line.  
 >   The user can provide input in the Terminal by running "node index.js" from the root of the repo.  
 >   When all the inputs are given, the application generates a README.md in the folder named 'dist'.  
 >   Navigate to the 'dist' folder and use it for your project.
->   New README.md files are overwritten on the existing file. So transfer it to your corresponding project folder before running the app again.
+>   New README.md files are overwritten on the existing file. Transfer it to your corresponding project folder before running the app again.
 
 ## Usage
 Please check the video for usage instructions.
@@ -56,7 +56,7 @@ Please visit the github profile.
 Github profile : https://github.com/rosefrancis-tech
 
 ## License   
-The ***entire*** project is licensed under ***MIT license***.      
+The ***entire*** project is licensed under [MIT license](https://choosealicense.com/licenses/mit/).      
         
 ## Credits  
 :trophy:[How to create a Professional README](./readme-guide.md)

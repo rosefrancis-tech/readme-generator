@@ -1,5 +1,5 @@
 
-# title goes here
+# title
 
     
 [![License](https://img.shields.io/badge/License-Apache%202.0-yellow)](http://www.apache.org/licenses/LICENSE-2.0.txt) 
@@ -15,29 +15,27 @@
 * [Questions](#Questions)
 * [License](#License)
 ## Description 
-f
+x
 ## Live Project
-f
+x
 ## GitHub Repository
-The project's repo link: f
+The project's repo link: x
 ## Installation
-f
+x
 ## Usage
-f
+x
 ## Contributing
-f
+x
 ## Tests
-f
+x
 ## Questions
 For questions, please visit the github profile.
-Github profile : https://github.com/f
-
-Please feel free to write to me at n
+Github profile : https://github.com/x
 
 ## License
 
     
-The ***entire*** project is licensed under ***Apache license 2.0***.      
+The ***enrire*** project is licensed under [Apache license 2.0](http://www.apache.org/licenses/LICENSE-2.0.txt).      
         
     
 
