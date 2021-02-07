@@ -136,8 +136,8 @@ module.exports = templateData => {
     console.log(templateData);
 
     return `
-${generateBadges(templateData.myLicense)}
-# ${templateData.title}
+ &nbsp; &nbsp; &nbsp; &nbsp; ${generateBadges(templateData.myLicense)}
+#  &nbsp; &nbsp; &nbsp; &nbsp; ${templateData.title}
 ## Table of Contents
 * [Description](#Description)
 * [Live project](#Live-project)
