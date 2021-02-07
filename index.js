@@ -4,7 +4,6 @@ const fillTemplate = require('./src/template');
 const generateMarkdown = require('./utils/generateMarkdown.js');
 
 // TODO: Create an array of questions for user input
-//const questions = [];
 const questions = () => {
     return inquirer.prompt([
       {
@@ -124,47 +123,6 @@ const questions = () => {
             }
         }
       }
-      /*,
-      {
-        type: 'confirm',
-        name: 'confirmLicense',
-        message: 'Would you like to add license?',
-        default: true
-      },
-      {
-        type: 'checkbox',
-        name: 'licenses',
-        message: 'Choose licenses (Check all that apply)',
-        choices: ['Apache license 2.0', 
-                  'GNU General Public License v3.0', 
-                  'MIT License', 
-                  'BSD 2-Clause "Simplified" License', 
-                  'BSD 3-Clause "New" or "Revised" License', 
-                  'Boost Software License 1.0', 
-                  'Creative Commons Zero v1.0 Universal',
-                  'Eclipse Public Licence 2.0',
-                  'GNU Affero General Public License v3.0',
-                  'GNU General Public License v2.0',
-                  'GNU Lesser General Public License v2.1',
-                  'Mozilla Public License 2.0',
-                  'The Unlicense'
-                 ],
-        when: ({ confirmLicense }) => {
-            if (confirmLicense) {
-              return true;
-            } else {
-              return false;
-            }
-        },
-        validate: licensesInput => {
-            if (licensesInput) {
-              return true;
-            } else {
-              console.log('Please enter license!');
-              return false;
-            }
-        }
-      }*/
     ]);
   };
 
@@ -255,7 +213,7 @@ const askLicense = readmeData => {
         }  
     });
 };
-//questions().then(answers => console.log(answers));
+
 questions()
 .then(askLicense)
 .then(readmeData => {
@@ -270,11 +228,3 @@ questions()
 .catch(err => {
     console.log(err);
 });
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
-
-// TODO: Create a function to initialize app
-function init() {}
-
-// Function call to initialize app
-init();

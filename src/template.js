@@ -78,6 +78,7 @@ const licenseList = [
         color: 'lightgreen'
     }
 ];
+
 // create email literal if user confirms to add email in readme
 const generateEmail = email => {
      if (!email) {
@@ -131,7 +132,8 @@ The ${section} is licensed under ${license}.
     })
     .join ('  ')}
     `;
-}
+};
+
 // create template literal
 module.exports = templateData => {
     console.log(templateData);
@@ -165,4 +167,4 @@ ${generateEmail(templateData.email)}
 ${generateLicense(templateData.myLicense)}
 
 `
-}
+};
