@@ -35,7 +35,7 @@ The project's repo link: https://github.com/rosefrancis-tech/readme-generator
 >   Download the [repo](https://github.com/rosefrancis-tech/readme-generator) to your local machine and run it from the Terminal/Command line.  
 >   The user can provide input in the Terminal by running "node index.js" from the root of the repo.  
 >   When all the inputs are given, the application generates a README.md in the folder named 'dist'.  
->   Navigate to the 'dist' folder and use it for your project.
+>   Navigate to the 'dist' folder and use it for your project.  
 >   New README.md files are overwritten on the existing file. Transfer it to your corresponding project folder before running the app again.
 
 ## Usage
