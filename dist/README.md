@@ -1,8 +1,10 @@
 
- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
     
+[![License](https://img.shields.io/badge/License-MIT-violet)](https://choosealicense.com/licenses/mit/) 
+[![License](https://img.shields.io/badge/License-CC0%201.0-lightgrey)](https://creativecommons.org/publicdomain/zero/1.0/legalcode) 
     
-#  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; f
+#  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; I am the TITLE
 ## Table of Contents
 * [Description](#Description)
 * [Live project](#Live-project)
@@ -14,25 +16,31 @@
 * [Questions](#Questions)
 * [License](#License)
 ## Description 
-f
+d
 ## Live Project
-f
+d
 ## GitHub Repository
-The project's repo link: f
+The project's repo link: d
 ## Installation
-f
+d
 ## Usage
-f
+d
 ## Contributing
-f
+d
 ## Tests
-f
+d
 ## Questions
 For questions, please visit the github profile.
-Github profile : https://github.com/f
+Github profile : https://github.com/d
+
+Please feel free to write to me at d
 
 ## License
 
-No licenses.
+    
+The ***code of the*** project is licensed under ***MIT License***.      
+          
+The ***content of the*** project is licensed under ***Creative Commons Zero v1.0 Universal***.      
         
+    
 

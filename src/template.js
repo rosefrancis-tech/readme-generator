@@ -1,3 +1,4 @@
+// Array of licenses and it corresponding identifier, link and badge color
 const licenseList = [
     {
         name: 'Apache license 2.0', 
@@ -136,8 +137,8 @@ module.exports = templateData => {
     console.log(templateData);
 
     return `
- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ${generateBadges(templateData.myLicense)}
-#  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ${templateData.title}
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ${generateBadges(templateData.myLicense)}
+#  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ${templateData.title}
 ## Table of Contents
 * [Description](#Description)
 * [Live project](#Live-project)
