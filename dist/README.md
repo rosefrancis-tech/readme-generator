@@ -2,9 +2,9 @@
 
     
 [![License](https://img.shields.io/badge/License-Apache%202.0-yellow)](http://www.apache.org/licenses/LICENSE-2.0.txt)
-         
+        
 [![License](https://img.shields.io/badge/License-GPL%203.0-blue)](https://www.gnu.org/licenses/gpl-3.0.en.html)
-         
+        
 [![License](https://img.shields.io/badge/License-MIT-violet)](https://choosealicense.com/licenses/mit/)
         
     
@@ -36,11 +36,11 @@ Please feel free to write to me at f
 ## License
 
     
-The f is licensed under Apache license 2.0.      
+The one is licensed under Apache license 2.0.      
           
-The ff is licensed under GNU General Public License v3.0.      
+The two is licensed under GNU General Public License v3.0.      
           
-The fff is licensed under MIT License.      
+The three is licensed under MIT License.      
         
     
 

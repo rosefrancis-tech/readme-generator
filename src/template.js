@@ -109,7 +109,7 @@ const generateBadges = mylicenseArr => {
 [![License](https://img.shields.io/badge/License-${filteredArray[0].SPDX}-${filteredArray[0].color})](${filteredArray[0].link})
         `;
     })
-    .join (' ')}
+    .join ('')}
     `;
 };
 // create licenses list
