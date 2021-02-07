@@ -1,10 +1,9 @@
 
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+# title goes here
+
     
-[![License](https://img.shields.io/badge/License-MIT-violet)](https://choosealicense.com/licenses/mit/) 
-[![License](https://img.shields.io/badge/License-CC0%201.0-lightgrey)](https://creativecommons.org/publicdomain/zero/1.0/legalcode) 
+[![License](https://img.shields.io/badge/License-Apache%202.0-yellow)](http://www.apache.org/licenses/LICENSE-2.0.txt) 
     
-#  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; I am the TITLE
 ## Table of Contents
 * [Description](#Description)
 * [Live project](#Live-project)
@@ -16,31 +15,29 @@
 * [Questions](#Questions)
 * [License](#License)
 ## Description 
-d
+f
 ## Live Project
-d
+f
 ## GitHub Repository
-The project's repo link: d
+The project's repo link: f
 ## Installation
-d
+f
 ## Usage
-d
+f
 ## Contributing
-d
+f
 ## Tests
-d
+f
 ## Questions
 For questions, please visit the github profile.
-Github profile : https://github.com/d
+Github profile : https://github.com/f
 
-Please feel free to write to me at d
+Please feel free to write to me at n
 
 ## License
 
     
-The ***code of the*** project is licensed under ***MIT License***.      
-          
-The ***content of the*** project is licensed under ***Creative Commons Zero v1.0 Universal***.      
+The ***entire*** project is licensed under ***Apache license 2.0***.      
         
     
 
