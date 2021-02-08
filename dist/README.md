@@ -1,8 +1,9 @@
 
-# title
+# README.md Generator
 
     
-[![License](https://img.shields.io/badge/License-Apache%202.0-yellow)](http://www.apache.org/licenses/LICENSE-2.0.txt) 
+[![License](https://img.shields.io/badge/License-CC0%201.0-lightgrey)](https://creativecommons.org/publicdomain/zero/1.0/legalcode) 
+[![License](https://img.shields.io/badge/License-MIT-violet)](https://choosealicense.com/licenses/mit/) 
     
 ## Table of Contents
 * [Description](#Description)
@@ -15,27 +16,30 @@
 * [Questions](#Questions)
 * [License](#License)
 ## Description 
-x
+This interactive project generates a README.md file by accepting inputs from the user in command line.
 ## Live Project
-x
+This is a node.js application that runs from the machine. Please follow [installation](#Installation) and [usage](#Usage) sections.
 ## GitHub Repository
-The project's repo link: x
+The project's repo link: https://github.com/rosefrancis-tech/readme-generator
 ## Installation
-x
+Install node.js.  Download this repository and run from terminal.  Install npm package.
 ## Usage
-x
+The user can provide input in the Terminal by running "node index.js" from the root of the repo.  The README file generated will be in the 'dist' directory of the repo.
 ## Contributing
-x
+Contributions welcome.  Please note that this project is released with a [Contributor Code of Conduct](https://www.contributor-covenant.org/version/2/0/code_of_conduct/ "contributor-covenant.org"). By participating in this project you agree to abide by its terms.
 ## Tests
-x
+On successful readme generation, 'Readme created' message is displayed in the terminal.
 ## Questions
-For questions, please visit the github profile.
-Github profile : https://github.com/x
+Please visit the github profile.
+Github profile : https://github.com/rosefrancis-tech
+
+Please feel free to write to me at rosefrancistoronto@gmail.com
 
 ## License
 
     
-The ***enrire*** project is licensed under [Apache license 2.0](http://www.apache.org/licenses/LICENSE-2.0.txt).      
+The ***content of the*** project is licensed under [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode).      
+          
+The ***source code of the*** project is licensed under [MIT License](https://choosealicense.com/licenses/mit/).      
         
     
-

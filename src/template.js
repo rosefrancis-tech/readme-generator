@@ -169,11 +169,10 @@ ${templateData.contributing}
 ## Tests
 ${templateData.tests}
 ## Questions
-For questions, please visit the github profile.
+Please visit the github profile.
 Github profile : https://github.com/${templateData.github}
 ${generateEmail(templateData.email)}
 ## License
 ${generateLicense(templateData.myLicense)}
-
 `
 };
