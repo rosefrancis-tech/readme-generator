@@ -24,7 +24,7 @@ The project's repo link: https://github.com/rosefrancis-tech/readme-generator
 ## Installation
 Install node.js.  Download this repository and run from terminal.  Install npm package.
 ## Usage
-The user can provide input in the Terminal by running "node index.js" from the root of the repo. Please find the screenshot: ![screenshot of capturing use input](assets/images/capture-user-input.png).  The README file generated will be in the 'dist' directory of the repo.
+The user can provide input in the Terminal by running "node index.js" from the root of the repo. Please find the screenshot: ![screenshot of capturing use input](assets/images/capture-user-input.png)  The README file generated will be in the 'dist' directory of the repo.
 ## Contributing
 Contributions welcome.  Please note that this project is released with a [Contributor Code of Conduct](https://www.contributor-covenant.org/version/2/0/code_of_conduct/ "contributor-covenant.org"). By participating in this project you agree to abide by its terms.
 ## Tests
