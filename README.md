@@ -38,7 +38,7 @@ The project's repo link: https://github.com/rosefrancis-tech/readme-generator
 >   For the first time, install npm by typing 'npm install' in the terminal from the root of the repo.   
 
 ## Usage
-Please check the video for usage instructions.
+Please check the [video](https://drive.google.com/file/d/1uvo6Xo1Ou7eRgDIBP5CVv3DO4quAwc6c/view?usp=sharing) for usage instructions.
 * Start  
     
     The user can provide input in the Terminal by running "node index.js" from the root of the repo.  
